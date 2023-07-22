@@ -6,7 +6,7 @@ import LoginForm from "./LoginForm";
 const Template = ({ title, desc1, decs2, image, formtype, setIsLoggedIn }) => {
   console.log(formtype,"template")
   return (
-    <div>
+    <div className="flex w-11/12 max-w-[1160px] py-12 mx-auto gap-y-12">
       <h1>{title}</h1>
       <p>
         <span>{desc1}</span>
@@ -18,7 +18,9 @@ const Template = ({ title, desc1, decs2, image, formtype, setIsLoggedIn }) => {
         <p>OR</p>
         <div></div>
       </div>
-      <button>Sing in with Google</button>
+      <button>
+            <p>Sing in with Google</p>
+      </button>
       <div>
         <img
           src={frameImage}

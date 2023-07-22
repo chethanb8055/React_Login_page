@@ -5,7 +5,7 @@ import { Link, useNavigate } from 'react-router-dom'
 
 
 const LoginForm = ({setIsLoggedIn}) => {
-    console.log(setIsLoggedIn,"LoginForm")
+
 
     const navigate =useNavigate();
 
@@ -13,7 +13,7 @@ const LoginForm = ({setIsLoggedIn}) => {
         email:'',password:""
     })
     const [showPassword,setShowPassword] =useState(false)
-    console.log(formData)
+
 
     function changeHandler(event){
         const {value,name} =event.target
