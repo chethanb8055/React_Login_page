@@ -36,7 +36,7 @@ const Navbar = (props) => {
           </Link>
         )}
         {!isLoggedIn && (
-          <Link>
+          <Link to="/singup">
             <button className="bg-richblack-800 text-richblack-100 py-[12px] px-[12px] rounded-[8px] border border-richblack-700">
               Sing Up
             </button>

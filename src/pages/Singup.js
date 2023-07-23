@@ -7,8 +7,8 @@ const Singup = ({setIsLoggedIn}) => {
   return (
     <Template
     title ="welcome Back"
-    description1 = "Build skill for today, tomorrow and beyond"
-    description2 = "Education to future-proof your career."    
+    desc1 = "Build skill for today, tomorrow and beyond"
+    decs2 = "Education to future-proof your career."    
     image={singupImg}
     formtype="singup"
     setIsLoggedIn={setIsLoggedIn}
